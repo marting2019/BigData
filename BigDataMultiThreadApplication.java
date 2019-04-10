@@ -12,7 +12,7 @@ public class  BigDataMultiTreadApplication
         for (int i = 1; i <= 5; i++) 
         {
             TestTask testtask = new TestTask("TestTask " + i);
-            System.out.println("Created : " + tesettask.getName());
+            System.out.println("Created : " + testtask.getName());
  
             executor.execute(testtask);
         }
